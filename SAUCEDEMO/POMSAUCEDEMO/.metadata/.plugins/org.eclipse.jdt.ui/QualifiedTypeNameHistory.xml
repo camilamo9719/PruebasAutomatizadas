@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="io.cucumber.java.it.Data"/>
+    <fullyQualifiedTypeName name="io.cucumber.datatable.DataTable"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+    <fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
+    <fullyQualifiedTypeName name="net.serenitybdd.cucumber.CucumberWithSerenity"/>
+    <fullyQualifiedTypeName name="net.thucydides.core.annotations.DefaultUrl"/>
+    <fullyQualifiedTypeName name="net.serenitybdd.core.pages.PageObject"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="actions.Action"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.en.Given"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.en.When"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.en.Then"/>
+    <fullyQualifiedTypeName name="pages.SauceDemoCarrito"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,18 @@
+package pages;
+
+import org.openqa.selenium.By;
+
+import net.serenitybdd.core.pages.PageObject;
+import net.thucydides.core.annotations.DefaultUrl;
+
+@DefaultUrl("https://www.saucedemo.com/inventory.html")
+public class SauceDemoFilterAtoZ extends PageObject {
+	// Clase para filtrar de la A a la Z
+	
+	By btnFiltro = By.xpath("//*[@class='product_sort_container']");
+	// By para los textos
+	By txtSauceLabsBackpack = By.xpath("//div[contains(text(),'Sauce Labs Backpack')]");
+	By txtSauceLabsBikeLight = By.xpath("//div[contains(text(),'Sauce Labs Bike Light')]");
+	By txt 
+	
+}

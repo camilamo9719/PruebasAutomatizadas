@@ -1,0 +1,8 @@
+package pages;
+
+import net.thucydides.core.annotations.DefaultUrl;
+
+public class SauceDemoFilterAtoZ {
+	// Clase para filtrar de la A a la Z
+	@DefaultUrl("https://www.saucedemo.com/inventory.html")
+}

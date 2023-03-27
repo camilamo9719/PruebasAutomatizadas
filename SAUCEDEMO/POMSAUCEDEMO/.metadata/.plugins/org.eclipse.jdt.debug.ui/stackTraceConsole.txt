@@ -1,0 +1,13 @@
+java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:43)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:81)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:128)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:191)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:297)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:983)
+	at actions.Action.navegateToUrl(Action.java:21)
+	at pages.SauceDemoCarritoPage.navegateToUrl(SauceDemoCarritoPage.java:20)
+	at stepdefinitions.SauceDemoCarritoStepDefinition.estarLogueadoEn(SauceDemoCarritoStepDefinition.java:13)
+	at ?.Estar logueado en "Sauce-Inventory"(file:///C:/Users/camila.morales/Downloads/Semillero/Semillero.2023-1/POMSAUCEDEMO/pageobjectmodel/src/test/resources/features/sauce_demo_carrito.feature:32)
+

@@ -1,0 +1,83 @@
+package pages;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
+import static org.junit.Assert.assertTrue;
+
+import java.util.Map;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import static actions.Action.getElementText;
+import actions.Action;
+import io.cucumber.datatable.DataTable;
+import net.serenitybdd.core.pages.PageObject;
+import net.thucydides.core.annotations.DefaultUrl;
+import utils.Constants;
+
+@DefaultUrl("https://www.saucedemo.com/inventory.html")
+public class SauceDemoInventoryPage extends PageObject {
+
+	By btnfilter = By.xpath("//*[@class='product_sort_container']");
+	By txtShirtRed = By.xpath("//div[contains(text(),'Test.allTheThings() T-Shirt (Red)')]");
+	By txtLabsOnesie = By.xpath("//div[contains(text(),'Sauce Labs Onesie')]");
+	By txtLabsFleece = By.xpath("//div[contains(text(),'Sauce Labs Fleece Jacket')]");
+	By txtLabsBolt = By.xpath("//div[contains(text(),'Sauce Labs Bolt T-Shirt')]");
+	By txtLabsBike = By.xpath("//div[contains(text(),'Sauce Labs Bike Light')]");
+	By txtLabsBackpack = By.xpath("//div[contains(text(),'Sauce Labs Backpack')]");
+	
+	//Precios
+	By txtShirtRedPrice = By.xpath("(//*[@class='inventory_list']//descendant::div[@class='inventory_item_price'])[4]");
+	By txtLabsOnesiePrice = By.xpath("(//*[@class='inventory_list']//descendant::div[@class='inventory_item_price'])[1]");
+	By txtLabsFleecePrice = By.xpath("(//*[@class='inventory_list']//descendant::div[@class='inventory_item_price'])[6]");
+	By txtLabsBoltPrice = By.xpath("(//*[@class='inventory_list']//descendant::div[@class='inventory_item_price'])[3]");
+	By txtLabsBikePrice = By.xpath("(//*[@class='inventory_list']//descendant::div[@class='inventory_item_price'])[2]");
+	By txtLabsBackpackPirce = By.xpath("(//*[@class='inventory_list']//descendant::div[@class='inventory_item_price'])[5]");
+	
+
+	public void navegar(String url) {
+
+		Action.navegateToUrl(getDriver(), Constants.getData(url));
+	}
+
+	public void filtroZa(DataTable dataTable) {
+
+		Map<String, String> data = dataTable.asMap(String.class, String.class);
+		Action.selectFromOption(getDriver(), data.get("filtro"), btnfilter);
+
+	}
+	
+	public void filtrobajo(DataTable dataTable) {
+
+		Map<String, String> data = dataTable.asMap(String.class, String.class);
+		Action.selectFromOption(getDriver(), data.get("filtroBajo"), btnfilter);
+
+	}
+
+	public void mostrarNombresElementos2() {
+		System.out.println("Nombre de los elementos de la página:");
+		System.out.println("------------------------------------");
+		WebElement[] elementos = { getDriver().findElement(txtShirtRed),
+				getDriver().findElement(txtLabsOnesie), getDriver().findElement(txtLabsFleece),
+				getDriver().findElement(txtLabsBolt), getDriver().findElement(txtLabsBike),
+				getDriver().findElement(txtLabsBackpack) };
+		for (WebElement elemento : elementos) {
+			System.out.println(elemento.getAttribute("innerText"));
+		}
+	}
+	
+	public void mostrarNombresElementos3() {
+		System.out.println("Precios del mas bajo al mas alto: ");
+		System.out.println("------------------------------------");
+		WebElement[] elementos = { getDriver().findElement(txtLabsOnesiePrice),
+				getDriver().findElement(txtLabsBikePrice), getDriver().findElement(txtLabsBoltPrice),
+				getDriver().findElement(txtShirtRedPrice), getDriver().findElement(txtLabsBackpackPirce),
+				getDriver().findElement(txtLabsFleecePrice) };
+		for (WebElement elemento : elementos) {
+			System.out.println(elemento.getAttribute("innerText"));
+		}
+	}
+	
+
+}

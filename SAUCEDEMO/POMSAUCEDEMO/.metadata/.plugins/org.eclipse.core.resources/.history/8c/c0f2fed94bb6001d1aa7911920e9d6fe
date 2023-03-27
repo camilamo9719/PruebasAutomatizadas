@@ -1,0 +1,22 @@
+package stepdefinitions;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class SauceDemoCarritoStepDefinition {
+	SauceDemoCarrito carrito;
+	
+	@Given("Estar logueado en {string}")
+	public void estarLogueadoEn(String string) {
+		
+	}
+	@When("Agregar al carrito de compra dos productos")
+	public void agregarAlCarritoDeCompraDosProductos() {
+		
+	}
+	@Then("Pasar a la pagina Sauce Checkout")
+	public void pasarALaPaginaSauceCheckout() {
+		
+	}
+}
