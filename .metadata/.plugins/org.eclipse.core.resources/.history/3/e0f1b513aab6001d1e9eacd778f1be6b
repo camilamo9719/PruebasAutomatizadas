@@ -1,0 +1,32 @@
+package com.sophossolutions.stepdefinitions;
+
+import io.cucumber.java.Before;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import net.serenitybdd.screenplay.actors.OnStage;
+import net.serenitybdd.screenplay.actors.OnlineCast;
+
+public class NewToursLoginStepDefinitions {
+	
+	@Before
+	public void setup() {
+		OnStage.setTheStage(new OnlineCast());
+	}
+	
+	@Given("Debe estar en la pagina de New Tours {string}")
+	public void debeEstarEnLaPaginaDeNewTours(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@When("Ingresar las credenciales {string} {string}")
+	public void ingresarLasCredenciales(String string, String string2) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@Then("Validar el mensaje del home de la pagina")
+	public void validarElMensajeDelHomeDeLaPagina() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+}

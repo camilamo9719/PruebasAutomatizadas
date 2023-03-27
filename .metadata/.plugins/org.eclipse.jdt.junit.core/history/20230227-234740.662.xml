@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="NewToursLogin (1)" project="ScreenPlayPattern" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="com.sophossolutions.runners.NewToursLogin" time="47.632" displayname="NewToursLogin" uniqueid="[engine:junit-vintage]/[runner:com.sophossolutions.runners.NewToursLogin]">
+    <testsuite name="Login de New Tours" time="47.632" uniqueid="[engine:junit-vintage]/[runner:com.sophossolutions.runners.NewToursLogin]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACUZmlsZTovLy9DOi9Vc2Vycy9jYW1pbGEubW9yYWxlcy9Eb3dubG9hZHMvU2NyZWVuUGxheVBhdHRlcm4vU2NyZWVuUGxheVBhdHRlcm4vc3JjL3Rlc3QvcmVzb3VyY2VzL2NvbS9zb3Bob3Nzb2x1dGlvbnMvZmVhdHVyZXMvbmV3dG91cnNfbG9naW4uZmVhdHVyZXg=]">
+      <testcase name="Loguearse en New Tours" classname="Loguearse en New Tours" time="47.632" uniqueid="[engine:junit-vintage]/[runner:com.sophossolutions.runners.NewToursLogin]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACUZmlsZTovLy9DOi9Vc2Vycy9jYW1pbGEubW9yYWxlcy9Eb3dubG9hZHMvU2NyZWVuUGxheVBhdHRlcm4vU2NyZWVuUGxheVBhdHRlcm4vc3JjL3Rlc3QvcmVzb3VyY2VzL2NvbS9zb3Bob3Nzb2x1dGlvbnMvZmVhdHVyZXMvbmV3dG91cnNfbG9naW4uZmVhdHVyZXg=]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAABhzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAlGZpbGU6Ly8vQzovVXNlcnMvY2FtaWxhLm1vcmFsZXMvRG93bmxvYWRzL1NjcmVlblBsYXlQYXR0ZXJuL1NjcmVlblBsYXlQYXR0ZXJuL3NyYy90ZXN0L3Jlc291cmNlcy9jb20vc29waG9zc29sdXRpb25zL2ZlYXR1cmVzL25ld3RvdXJzX2xvZ2luLmZlYXR1cmV4]">
+        <failure>java.lang.AssertionError: El titulo del elemento no coincide con el esperado - disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=110.0.5481.105)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'SSBOG5CD9501V54', ip: '192.168.117.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81f56b5e26432e74dfc933bb64adcf07, findElements {using=xpath, value=//h3[contains(text(),'Login')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\CAMILA~1.MOR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:51683}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51683/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 81f56b5e26432e74dfc933bb64adcf07&#13;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)&#13;
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)&#13;
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:353)&#13;
+	at com.sophossolutions.stepdefinitions.NewToursLoginStepDefinitions.validarElMensajeDelHomeDeLaPagina(NewToursLoginStepDefinitions.java:52)&#13;
+	at ✽.Validar el mensaje del home de la pagina "Login Successzfully"(file:///C:/Users/camila.morales/Downloads/ScreenPlayPattern/ScreenPlayPattern/src/test/resources/com/sophossolutions/features/newtours_login.feature:31)&#13;
+&#13;
+</failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

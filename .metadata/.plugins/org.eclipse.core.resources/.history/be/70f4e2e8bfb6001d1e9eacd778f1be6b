@@ -1,0 +1,12 @@
+package com.sophossolutions.exceptions;
+
+public class UnexpectedResult extends AssertionError {
+
+	/**
+	 * 
+	 */
+	//Orden interno que genera la clase assertion
+	//No genera nada pero se debe poner
+	private static final long serialVersionUID = 1L;
+
+}

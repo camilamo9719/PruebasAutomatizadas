@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="NewToursLogin (1)" project="ScreenPlayPattern" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="com.sophossolutions.runners.NewToursLogin" time="21.991" displayname="NewToursLogin" uniqueid="[engine:junit-vintage]/[runner:com.sophossolutions.runners.NewToursLogin]">
+    <testsuite name="Login de New Tours" time="21.991" uniqueid="[engine:junit-vintage]/[runner:com.sophossolutions.runners.NewToursLogin]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACUZmlsZTovLy9DOi9Vc2Vycy9jYW1pbGEubW9yYWxlcy9Eb3dubG9hZHMvU2NyZWVuUGxheVBhdHRlcm4vU2NyZWVuUGxheVBhdHRlcm4vc3JjL3Rlc3QvcmVzb3VyY2VzL2NvbS9zb3Bob3Nzb2x1dGlvbnMvZmVhdHVyZXMvbmV3dG91cnNfbG9naW4uZmVhdHVyZXg=]">
+      <testcase name="Loguearse en New Tours" classname="Loguearse en New Tours" time="21.991" uniqueid="[engine:junit-vintage]/[runner:com.sophossolutions.runners.NewToursLogin]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACUZmlsZTovLy9DOi9Vc2Vycy9jYW1pbGEubW9yYWxlcy9Eb3dubG9hZHMvU2NyZWVuUGxheVBhdHRlcm4vU2NyZWVuUGxheVBhdHRlcm4vc3JjL3Rlc3QvcmVzb3VyY2VzL2NvbS9zb3Bob3Nzb2x1dGlvbnMvZmVhdHVyZXMvbmV3dG91cnNfbG9naW4uZmVhdHVyZXg=]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAABhzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAlGZpbGU6Ly8vQzovVXNlcnMvY2FtaWxhLm1vcmFsZXMvRG93bmxvYWRzL1NjcmVlblBsYXlQYXR0ZXJuL1NjcmVlblBsYXlQYXR0ZXJuL3NyYy90ZXN0L3Jlc291cmNlcy9jb20vc29waG9zc29sdXRpb25zL2ZlYXR1cmVzL25ld3RvdXJzX2xvZ2luLmZlYXR1cmV4]">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'Validar el mensaje del home de la pagina "Login Successfully"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("Validar el mensaje del home de la pagina {string}")
+public void validarElMensajeDelHomeDeLaPagina(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>
